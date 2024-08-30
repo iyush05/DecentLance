@@ -5,7 +5,9 @@ import { Separator } from "@/components/ui/separator"
 
   
 const LandingCard = () => {
+
     return (
+
         <div className="text-white sm:p-6">
         <div className="mt-12 grid-cols-2 w-full h-full md:flex">
             <div className="w-full h-full">
@@ -26,7 +28,7 @@ const LandingCard = () => {
 
         </div>
         <div className="mt-11 text-3xl font-sans font-extrabold flex items-center justify-center h-full w-  full tracking-widest mb-10">WHY US</div>
-        <div className="bg-gray-800 flex w-full h-full grid-cols-4 justify-around">
+        <div className="bg-gray-800 flex w-full h-full grid-cols-4 justify-around rounded-md">
             <div className="mt-10 mb-10">
                 <div className="flex justify-center mb-4">
                 <Image

@@ -4,7 +4,7 @@ import WorkCard from "./WorkCard"
 const TopFreeCard = () => {
     return (
         <div className="text-white h-full w-full grid grid-cols-5">
-            <div className="col-span-2">
+            <div className="hidden md:block col-span-2">
                 <Image
                 src="/assets/images/laptop.png"
                 height={450}

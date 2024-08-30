@@ -15,8 +15,8 @@ const Navbar = () => {
         <div className="flex w-full h-full">
         <Image 
         src="/assets/images/logo.png"
-        height={275}
-        width={275}
+        height={200}
+        width={200}
         alt="logo"
         className="px-11 py-6"></Image>
 
