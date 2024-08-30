@@ -13,8 +13,7 @@ const LandingCard = () => {
             src="/assets/images/hero.jpg"
             height={800}
             width={600}
-            alt="hero"
-            className=""></Image>
+            alt="hero"></Image>
             </div>
             <div>
                 <p className="text-6xl font-sans text-white font-extrabold sm:pb-5 pt-5">Web3 Environment for Enhanced Collaboration and A Better World</p>
@@ -33,8 +32,7 @@ const LandingCard = () => {
                 src="/assets/images/dtp.png"
                 height={60}
                 width={60}
-                alt="dtp"
-                className="rounded-full bg-white p-1 "></Image>
+                alt="dtp"></Image>
                 </div>
                 <p className="flex justify-center mb-4 text-2xl font-bold font-sans">Diverse Talent Pool</p>
                 <p className="mx-11 text-center text-gray-300">Access a wide range of skilled freelancers with expertise in various industries.</p>
@@ -45,8 +43,7 @@ const LandingCard = () => {
                 src="/assets/images/sp.png"
                 height={60}
                 width={60}
-                alt="dtp"
-                className="flex justify-center items-center rounded-full bg-white p-0.5 "></Image>
+                alt="dtp"></Image>
             </div>
                 <p className="text-center mb-4 text-2xl font-bold font-sans">Streamlined Project</p>
                 <p className="mx-11 text-center text-gray-300">DecentLance simplifies the entire project lifecycle from hiring to completion.</p>
@@ -57,8 +54,7 @@ const LandingCard = () => {
                 src="/assets/images/dtp.png"
                 height={60}
                 width={60}
-                alt="dtp"
-                className="flex justify-center items-center rounded-full bg-white p-1 "></Image>
+                alt="dtp"></Image>
             </div>
                 <p className="text-center mb-4 text-2xl font-bold font-sans">Quality Assurance</p>
                 <p className="mx-11 text-center text-gray-300">We ensure top-notch work through our vetting and rating system.</p>
@@ -69,8 +65,7 @@ const LandingCard = () => {
                 src="/assets/images/sp.png"
                 height={60}
                 width={60}
-                alt="dtp"
-                className="flex justify-center items-center rounded-full bg-white p-0.5 "></Image>
+                alt="dtp"></Image>
             </div>
                 <p className="text-center mb-4 text-2xl font-bold font-sans">Cost Effective Solutions</p>
                 <p className="mx-11 text-center text-gray-300">Find cost-effective freelance services to fit your budget and project requirements.</p>

@@ -9,8 +9,7 @@ const TopFreeCard = () => {
                 src="/assets/images/laptop.png"
                 height={450}
                 width={450}
-                alt="laptop"
-                className="mx-20 rounded-sm"></Image>
+                alt="laptop"></Image>
             </div>
             <div className="col-span-3 mx-5 ">
                 <div className="text-4xl font-extrabold my-6">FIND TOP FREELANCERS</div>

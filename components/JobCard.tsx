@@ -13,8 +13,7 @@ const JobCard = (props: PropsSchema) => {
         src={props.img}
         height={50}
         width={50}
-        alt="design"
-        className="mx-6"></Image>
+        alt="design"></Image>
         </div>
         <div className="">
         <div className="mt-3 text-lg font-semibold tracking-wide pl-10 whitespace-nowrap">{props.job}</div>

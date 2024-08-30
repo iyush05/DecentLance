@@ -12,8 +12,7 @@ const Footer = () => {
                     src="/assets/images/logo.svg"
                     height={200}
                     width={200}
-                    alt="logo"
-                    className="pb-20"></Image>
+                    alt="logo"></Image>
                 </div>
                 <div className="flex h-full w-full justify-between text-gray-400">
                     <p>Merchandise</p>
@@ -28,22 +27,19 @@ const Footer = () => {
                     src="/assets/images/twitter.png"
                     height={30}
                     width={30}
-                    alt="twitter"
-                    className="pb-36 mx-2">
+                    alt="twitter">
                     </Image>
                     <Image 
                     src="/assets/images/facebook.png"
                     height={30}
                     width={30}
-                    alt="facebook"
-                    className="pb-36 mx-2">
+                    alt="facebook">
                     </Image>
                     <Image 
                     src="/assets/images/instagram.png"
                     height={30}
                     width={30}
-                    alt="instagram"
-                    className="pb-36 mx-2">
+                    alt="instagram">
                     </Image>
                 </div>
             </div>
