@@ -15,7 +15,8 @@ const AboutCard = () => {
                 src="/assets/images/water-drops.png"
                 height={80}
                 width={80}
-                alt="water-drop"></Image>
+                alt="water-drop"
+                className="pl-3"></Image>
                 <p className="mx-8 font-sans text-lg text-gray-400">We believe in the power of innovation, transparency, and trust. Our Web3-based platform is designed to empower both freelancers and employers, 
                     making the entire process seamless and efficient. With a commitment to excellence, we're dedicated to creating a decentralized collaboration 
                     space that brings the future of work closer to you.</p>
@@ -25,7 +26,8 @@ const AboutCard = () => {
                 src="/assets/images/npc.png"
                 height={400}
                 width={400}
-                alt="npc"></Image>
+                alt="npc"
+                className=""></Image>
             </div>
             <div className="grid-cols-1">
                 <ul className="mx-4 my-14">
@@ -34,7 +36,8 @@ const AboutCard = () => {
                         src="/assets/images/tick-circle.svg"
                         height={20}
                         width={20}
-                        alt="tick-mark"></Image>
+                        alt="tick-mark"
+                        className="mb-11"></Image>
                         <div>
                         <p className="mx-4 my-3 font-bold text-xl">Fully Decentralised</p>
                         <p className="mx-4 text-gray-400">World's first fully decentralized freelance network</p>
@@ -45,7 +48,8 @@ const AboutCard = () => {
                         src="/assets/images/tick-circle.svg"
                         height={20}
                         width={20}
-                        alt="tick-mark"></Image>
+                        alt="tick-mark"
+                        className="mb-11"></Image>
                         <div>
                         <p className="mx-4 my-3 font-bold text-xl">Zero Commission</p>
                         <p className="mx-4 text-gray-400">No other platform offers Zero Commission in the industry</p>
@@ -56,7 +60,8 @@ const AboutCard = () => {
                         src="/assets/images/tick-circle.svg"
                         height={20}
                         width={20}
-                        alt="tick-mark"></Image>
+                        alt="tick-mark"
+                        className="mb-11"></Image>
                         <div>
                         <p className="mx-4 my-3 font-bold text-xl">Instant Withdrawal</p>
                         <p className="mx-4 text-gray-400">Unlimited ownership Instant Withdrawal recruitment platform</p>

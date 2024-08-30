@@ -11,7 +11,8 @@ const FindJob = () => {
         src="/assets/images/findJob.png"
         height={300}
         width={300}
-        alt="find-jobs"></Image></div>
+        alt="find-jobs"
+        className="my-10"></Image></div>
         <div className="flex w-full h-full justify-center text-4xl font-bold">
             Find your Dream Jobs Today
         </div>

@@ -13,7 +13,8 @@ const WorkCard = (props: PropsSchema) => {
         src={props.img}
         height={50}
         width={50}
-        alt="design"></Image>
+        alt="design"
+        className="mx-6"></Image>
         </div>
         <div className="mt-3 text-lg font-semibold tracking-wide pl-10">{props.work}</div>
         <div className="flex w-full h-full justify-end pr-4">
@@ -21,7 +22,8 @@ const WorkCard = (props: PropsSchema) => {
         src="/assets/images/star.png"
         height={40}
         width={40}
-        alt="rating"></Image>
+        alt="rating"
+        className="my-7 pl-5 "></Image>
         <div className="mt-7 ml-1 justify-end">{props.stars}/5</div></div>
         </div>
 

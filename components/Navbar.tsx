@@ -17,7 +17,8 @@ const Navbar = () => {
         src="/assets/images/logo.svg"
         height={275}
         width={275}
-        alt="logo"></Image>
+        alt="logo"
+        className="px-11 py-6"></Image>
 
         <div className="hidden md:flex pt-10 h-full font-mono font-normal text-gray-300">
             <p className="px-5 flex">About us
@@ -37,6 +38,7 @@ const Navbar = () => {
             height={80}
             width={80}
             alt="menubar"
+            className="pt-2 pr-11 md:hidden cursor-pointer"
             onClick={toggleSidebar}></Image>
             
             <div
@@ -48,13 +50,15 @@ const Navbar = () => {
         src="/assets/images/logo.svg"
         height={200}
         width={200}
-        alt="logo"></Image>
+        alt="logo"
+        className="px-11 py-6"></Image>
 
         <Image
             src="assets/images/cross.svg"
             height={60}
             width={60}
             alt="menubar"
+            className="px-5 py-5 md:hidden cursor-pointer "
             onClick={toggleSidebar}></Image>
             
     </div>
