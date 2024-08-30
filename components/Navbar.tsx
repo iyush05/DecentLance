@@ -14,7 +14,7 @@ const Navbar = () => {
         <>
         <div className="flex w-full h-full">
         <Image 
-        src="/assets/images/logo.svg"
+        src="/assets/images/logo.png"
         height={275}
         width={275}
         alt="logo"
@@ -47,7 +47,7 @@ const Navbar = () => {
         }`}
       >
         <Image 
-        src="/assets/images/logo.svg"
+        src="/assets/images/logo.png"
         height={200}
         width={200}
         alt="logo"

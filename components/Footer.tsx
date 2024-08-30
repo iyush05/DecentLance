@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="grid grid-cols-3 my-24">
                 <div className="flex h-full w-full justify-center pb-12">
                     <Image
-                    src="/assets/images/logo.svg"
+                    src="/assets/images/logo.png"
                     height={200}
                     width={200}
                     alt="logo"
