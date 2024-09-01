@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "DecentLance - Decentralized Freelancing Marketplace",
+  title: "DecentLancer - Decentralized Freelancing Marketplace",
   description: "Decentralized Freelancing Marketplace",
 };
 

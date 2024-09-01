@@ -9,7 +9,7 @@ const LandingCard = () => {
     return (
 
         <div className="text-white sm:p-6">
-        <div className="mt-12 grid-cols-2 w-full h-full md:flex">
+        <div className="mt-12 grid-cols-2 gap-4 w-full h-full md:flex">
             <div className="w-full h-full">
             <Image 
             src="/assets/images/hero.jpg"
@@ -20,7 +20,7 @@ const LandingCard = () => {
             </div>
             <div>
                 <p className="text-6xl font-sans text-white font-extrabold sm:pb-5 pt-5">Web3 Environment for Enhanced Collaboration and A Better World</p>
-                <p className="text-lg pt-2 text-gray-400 sm:pb-5">The freelance industry is evolving, and DecentLance is at the forefront of the revolution. With our decentralized approach, we're connecting freelancers and recruiters, leveraging the power of blockchain technology.</p>
+                <p className="text-lg pt-2 text-gray-400 sm:pb-5">The freelance industry is evolving, and DecentLancer is at the forefront of the revolution. With our decentralized approach, we're connecting freelancers and recruiters, leveraging the power of blockchain technology.</p>
                 <Button asChild className="bg-green-600 mt-2 hover:bg-transparent hover:border-solid border-2 border-green-600 font-semibold">
                     <Link href="/signin">Sign up</Link>
                     </Button>
@@ -51,7 +51,7 @@ const LandingCard = () => {
                 className="flex justify-center items-center rounded-full bg-white p-0.5 "></Image>
             </div>
                 <p className="text-center mb-4 text-2xl font-bold font-sans">Streamlined Project</p>
-                <p className="mx-11 text-center text-gray-300">DecentLance simplifies the entire project lifecycle from hiring to completion.</p>
+                <p className="mx-11 text-center text-gray-300">DecentLancer simplifies the entire project lifecycle from hiring to completion.</p>
             </div>
             <div className="mt-10 mb-10">
             <div className="flex justify-center mb-4">

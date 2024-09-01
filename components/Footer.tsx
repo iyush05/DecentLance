@@ -4,48 +4,42 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <div className="text-white mt-24">
+        <div className="text-gray-400 mt-24 bg-neutral-800">
             <Separator/>
-            <div className="grid grid-cols-3 my-24">
-                <div className="flex h-auto w-auto justify-center ">
+            <div className="grid grid-cols-3">
+                <div className="flex justify-center">
                     <Image
                     src="/assets/images/logo.png"
-                    height={200}
-                    width={200}
+                    height={175}
+                    width={175}
                     alt="logo"
-                    className="pb-32"></Image>
+                    className=""></Image>
                 </div>
-                <div className="flex h-full w-full justify-between text-gray-400">
-                    <p>Merchandise</p>
+                <div className="flex  justify-evenly items-center">
+                    <p>Merchandise</p> 
                     <p>Privacy</p>
                     <p>Cookies</p>
                     <p>Terms</p>
                     <p>About</p>
                 </div>
-                <div className="flex justify-center ">
-
-                    <Image 
-                    src="/assets/images/twitter.png"
-                    height={50}
-                    width={50}
-                    alt="twitter"
-                    className="pb-36 mx-2">
-                    </Image>
-                    <Image 
-                    src="/assets/images/facebook.png"
-                    height={60}
-                    width={60}
-                    alt="facebook"
-                    className="pb-36 mx-2">
-                    </Image>
-                    <Image 
-                    src="/assets/images/instagram.png"
-                    height={50}
-                    width={50}
-                    alt="instagram"
-                    className="pb-36 mx-2">
-                    </Image>
+                <div className="flex justify-center items-center">
+                    <Image src="/assets/images/facebook.png" height={30} width={30} alt="facebook" className="pr-2"></Image>
+                    <Image src="/assets/images/twitter.png" height={30} width={30} alt="twitter" className="pr-2"></Image>
+                    <Image src="/assets/images/instagram.png" height={30} width={30} alt="instagram" className=""></Image>
+                    
                 </div>
+            </div>
+            <Separator className="mt-11 bg-gray-600"/>
+            <div className="flex justify-center mt-11 mb-1">
+            Disclaimer: Cryptocurrency may be unregulated in your jurisdiction. The value of cryptocurrencies may fluctuate. 
+            </div>
+
+            <div className="flex justify-center">
+            Profits may be subject to capital gains or other taxes applicable in your jurisdiction.
+            </div>
+            <div className="pt-14 pb-14">
+                <p className="flex justify-center">2024 © DecentLancer Labs LTD | All Rights Reserved</p>
+                <p className="flex justify-center pt-1">Ajay Kumar Garg Engineering College, Ghaziabad, info@deelance.com</p>
             </div>
         </div>
     )
