@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             <div className="pt-14 pb-14">
                 <p className="flex justify-center">2024 © DecentLancer Labs LTD | All Rights Reserved</p>
-                <p className="flex justify-center pt-1">Ajay Kumar Garg Engineering College, Ghaziabad, info@deelance.com</p>
+                <p className="flex justify-center pt-1">Ajay Kumar Garg Engineering College, Ghaziabad, info@decentlancer.com</p>
             </div>
         </div>
     )
