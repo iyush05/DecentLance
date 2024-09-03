@@ -68,7 +68,7 @@ const AboutCard = () => {
                         </div>
                     </li>
                     <Button asChild className="mt-11 ml-8 pl-14 pr-14 rounded-full bg-green-700 hover:bg-green-600">
-                    <Link href="/signup">Sign up</Link>
+                    <Link href="/api/auth/signin">Sign up</Link>
                     </Button>
                 </ul>
             </div>
